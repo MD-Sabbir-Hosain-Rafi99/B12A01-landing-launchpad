@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a,
+li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+/* All Global Css End */
+
+
+/* Header Section Css Start */
+header {
+    background: url(/Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding: 63px 0 166px 0; */
+    width: full;
+    height: 790px;
+    margin-bottom: 150px;
+}
+
+nav{
+    padding-top: 50px;
+}
+
+.navbarFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logoText {
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.navbarButton a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 40px 15px 40px;
+    border-radius: 8px;
+    background-color: #4E47FF;
+    color: white;
+    transition: 0.2s;
+}
+.navbarButton a:hover{
+    background-color: rgb(177, 177, 33);
+}
+
+.bannerContent {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.bannerContent h1 {
+    font-family: "Raleway", sans-serif;
+    font: bold;
+    font-size: 75px;
+    line-height: 76px;
+    padding-bottom: 50px;
+    color: #252432;
+}
+.bannerContent a {
+    font-family: "Raleway", sans-serif;
+    font: bold;
+    font-weight: 600;
+    color: white;
+    background-color: #4E47FF;
+    padding: 12px 36px 12px 36px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.bannerContent a:hover{
+    background-color: rgb(177, 177, 33);
+}
+/* Header Section Css End */
+
+
+
+.actionLeftPart h3{
+    font-family: "Raleway", sans-serif;
+    font: bold;
+    font-size: 38px;
+    color: #252432;
+    padding-bottom: 20px;
+}
+.actionLeftPart p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 20px;
+}
+.actionLeftPart a {
+    font-family: "Raleway", sans-serif;
+    font: bold;
+    font-weight: 600;
+    color: white;
+    background-color: #4E47FF;
+    padding: 12px 36px 12px 36px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.actionLeftPart a:hover{
+    background-color: rgb(177, 177, 33);
+}
