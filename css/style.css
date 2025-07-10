@@ -106,6 +106,15 @@ nav{
 /* Header Section Css End */
 
 
+#actionSection{
+    margin-bottom: 180px;
+}
+
+.actionSectionFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .actionLeftPart h3{
     font-family: "Raleway", sans-serif;
@@ -119,6 +128,8 @@ nav{
     font-size: 20px;
     color: gray;
     padding-bottom: 20px;
+    width: 400px;
+    line-height: 30px;
 }
 .actionLeftPart a {
     font-family: "Raleway", sans-serif;
@@ -132,4 +143,8 @@ nav{
 }
 .actionLeftPart a:hover{
     background-color: rgb(177, 177, 33);
+}
+
+.actionRightPart img{
+    border-radius: 30px;
 }
