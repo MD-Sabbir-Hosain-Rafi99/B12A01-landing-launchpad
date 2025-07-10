@@ -31,7 +31,9 @@ p {
     width: 1140px;
     margin: 0 auto;
 }
+
 /* All Global Css End */
+
 
 
 /* Header Section Css Start */
@@ -46,7 +48,7 @@ header {
     margin-bottom: 150px;
 }
 
-nav{
+nav {
     padding-top: 50px;
 }
 
@@ -73,7 +75,8 @@ nav{
     color: white;
     transition: 0.2s;
 }
-.navbarButton a:hover{
+
+.navbarButton a:hover {
     background-color: rgb(177, 177, 33);
 }
 
@@ -90,6 +93,7 @@ nav{
     padding-bottom: 50px;
     color: #252432;
 }
+
 .bannerContent a {
     font-family: "Raleway", sans-serif;
     font: bold;
@@ -100,30 +104,35 @@ nav{
     border-radius: 8px;
     transition: 0.2s;
 }
-.bannerContent a:hover{
+
+.bannerContent a:hover {
     background-color: rgb(177, 177, 33);
 }
+
 /* Header Section Css End */
 
 
-#actionSection{
+
+/* Action Section Start */
+#actionSection {
     margin-bottom: 180px;
 }
 
-.actionSectionFlex{
+.actionSectionFlex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.actionLeftPart h3{
+.actionLeftPart h3 {
     font-family: "Raleway", sans-serif;
     font: bold;
     font-size: 38px;
     color: #252432;
     padding-bottom: 20px;
 }
-.actionLeftPart p{
+
+.actionLeftPart p {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     color: gray;
@@ -131,6 +140,7 @@ nav{
     width: 400px;
     line-height: 30px;
 }
+
 .actionLeftPart a {
     font-family: "Raleway", sans-serif;
     font: bold;
@@ -141,10 +151,53 @@ nav{
     border-radius: 8px;
     transition: 0.2s;
 }
-.actionLeftPart a:hover{
+
+.actionLeftPart a:hover {
     background-color: rgb(177, 177, 33);
 }
 
-.actionRightPart img{
+.actionRightPart img {
     border-radius: 30px;
+}
+
+/* Action Section End */
+
+
+
+#productUserSection {
+    width: 1140px;
+    height: 306px;
+    background-color: #E5E7FF;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 121px;
+}
+
+#productUserSection h3 {
+    padding-top: 60px;
+    font-family: "Raleway", sans-serif;
+    font: bold;
+    font-size: 38px;
+    color: #252432;
+}
+
+.productUserFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+
+.productionUserContent h2 {
+    margin-bottom: 20px;
+    /* padding-top: 20px; */
+    font-family: "Inter", sans-serif;
+    font: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.productionUserContent p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: rgb(114, 114, 114);
 }
