@@ -201,3 +201,31 @@ nav {
     font-size: 20px;
     color: rgb(114, 114, 114);
 }
+
+
+.usersIconFlex{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.useiconContent h6{
+    margin-bottom: 10px;
+}
+
+.usercard{
+    /* width: 370px; */
+    /* height: 223px; */
+    background-color: white;
+    padding: 30px 50px 20px 20px;
+    border-radius: 20px;
+    margin-bottom: 200px;
+}
+.usericonImg img{
+    border-radius: 20px;
+}
+
+.usersayFlex {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
